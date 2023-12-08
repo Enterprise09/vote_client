@@ -1,0 +1,12 @@
+.admin-container {
+  padding: 10rem;
+}
+
+table {
+  margin-top: 5rem;
+}
+
+th,
+td {
+  padding: 0.2rem 1.2rem;
+}

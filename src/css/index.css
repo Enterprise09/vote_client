@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* class components */
+.title {
+  margin-bottom: 2rem;
+}
+
+.container {
+  padding: 1.2rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: normal;
+}
+
+input {
+  padding: 0.5rem 0.4rem;
+  border-radius: 0 0 0.4rem 0;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  font-family: "Black Han Sans", sans-serif;
+  font-size: large;
+}
+
+.button {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: large;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.3rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.red-button {
+  background: #ff5a5a;
+}
+
+.blue-button {
+  background: #5a65ff;
+}
+/* end of class components */
+
+/* login.css */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button {
+  margin-top: 1.5rem;
+}
+
+/* end of login.css */
+
+/* vote_form.css */
+.vote-form {
+  margin-bottom: 1.2rem;
+}
+
+.vote-title {
+  padding-bottom: 0;
+}
+
+.vote-sub-title {
+  text-align: right;
+  margin-bottom: 1.2rem;
+}
+
+.vote-name-input {
+  width: 50%;
+}
+
+.vote-button {
+  margin-right: 6rem;
+}
+
+iframe {
+  display: block;
+  margin-top: 5rem;
+  width: 362px;
+  height: 203px;
+}
+
+/* end of vote_form.css */
